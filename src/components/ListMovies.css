@@ -1,0 +1,64 @@
+.list-movies::-webkit-scrollbar {
+    width: 7px;
+    /* width of the entire scrollbar */
+}
+
+.list-movies::-webkit-scrollbar-track {
+    background: #0B999650;
+    /* color of the tracking area */
+}
+
+.list-movies::-webkit-scrollbar-thumb {
+    background-color: #0B9996;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #0B9996;
+    /* creates padding around scroll thumb */
+}
+.list-movies{
+    margin-top: 2vh;
+    /* padding-top: 2vh; */
+    padding-bottom: 2vh;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* align-items: center; */
+    height: 100%;
+    flex: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.list-movies h2,.list-movies h3{
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.list-movies .total-filmes{
+    background: #087271;
+    color: #fff;
+    padding: 15px;
+}
+.list-movies ul li{
+    color: #fff;
+    font-weight: 600;
+    border-color: #fff;
+    border-bottom-width: 5px;
+}
+.list-movies ul li:last-child{
+    border-bottom-width: 1px;
+}
+.bg-numfilmes{
+    background-color: #087271!important;
+    transition: .2s;
+    /* width: 80px; */
+    cursor: default;
+}
+.bg-numfilmes:hover{
+    background-color: #054C4B!important;
+    box-shadow: 0px 0px 3px #00000099;
+    /* width: 110px; */
+}
+.bg-listfilmes{
+    background-color: #0DBFBC!important;
+}

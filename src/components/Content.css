@@ -1,0 +1,12 @@
+.content{
+    background-color: #fff;
+    height: 90vh;
+    /* padding-top: 3vh; */
+    padding-bottom: 3vh;
+    box-shadow: 0px 5px 15px #00000035;
+    border-radius: 7px;
+    overflow: hidden;
+    /*  */
+    display: flex;
+    flex-direction: column;
+}
